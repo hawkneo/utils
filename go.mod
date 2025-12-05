@@ -1,4 +1,4 @@
-module github.com/gridexswap/utils
+module github.com/hawkneo/utils
 
 go 1.19
 

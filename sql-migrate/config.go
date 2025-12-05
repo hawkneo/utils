@@ -2,7 +2,7 @@ package migrate
 
 import (
 	"database/sql"
-	"github.com/gridexswap/utils/log"
+	"github.com/hawkneo/utils/log"
 )
 
 type Config struct {

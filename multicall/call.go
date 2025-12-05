@@ -5,7 +5,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/gridexswap/utils/multicall/contract"
+	"github.com/hawkneo/utils/multicall/contract"
 	"math/big"
 	"regexp"
 	"strings"

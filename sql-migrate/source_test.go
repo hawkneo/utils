@@ -3,7 +3,7 @@ package migrate
 import (
 	"context"
 	"database/sql"
-	"github.com/gridexswap/utils/log"
+	"github.com/hawkneo/utils/log"
 	_ "github.com/lib/pq"
 	"github.com/stretchr/testify/require"
 	"testing"

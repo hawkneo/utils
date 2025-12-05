@@ -3,7 +3,7 @@ package multicall
 import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/gridexswap/utils/multicall/contract"
+	"github.com/hawkneo/utils/multicall/contract"
 )
 
 type Multicall3 struct {

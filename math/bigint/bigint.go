@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/gridexswap/utils/math"
+	"github.com/hawkneo/utils/math"
 )
 
 var (

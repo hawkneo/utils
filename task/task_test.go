@@ -3,7 +3,7 @@ package task
 import (
 	"context"
 	"github.com/gorhill/cronexpr"
-	"github.com/gridexswap/utils/log"
+	"github.com/hawkneo/utils/log"
 	"github.com/stretchr/testify/require"
 	"testing"
 	"time"

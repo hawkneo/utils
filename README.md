@@ -1,6 +1,7 @@
 # Utils
 
 ## decimal.Decimal
+
 Decimal is a fixed-point decimal number.
 
 > Decimal is immutable, so all methods return a new Decimal
@@ -17,6 +18,7 @@ decimal.MustFromString(str string) Decimal
 ```
 
 ## bigint.BigInt
+
 BigInt is a wrapper around big.Int that provides some convenience methods.
 
 > BigInt is immutable, so all methods return a new BigInt
@@ -38,7 +40,7 @@ bigint.MustNewFromString(s string) BigInt
 ### Install migrate
 
 ```bash
-$ go install github.com/gridexswap/utils/sql-migrate/cmd/migrate@latest
+$ go install github.com/hawkneo/utils/sql-migrate/cmd/migrate@latest
 ```
 
 ### Create migration config file
@@ -143,7 +145,7 @@ $ migrate status
 ### Integrate with your project
 
 ```bash
-$ go get github.com/gridexswap/utils/sql-migrate
+$ go get github.com/hawkneo/utils/sql-migrate
 ```
 
 ```go
@@ -168,6 +170,7 @@ func TestUpMigrator(t *testing.T) {
 ```
 
 ## multicall.NewMulticall&multicall.NewMulticall3
+
 `Multicall` is sdk for [AggregateMulticall](https://github.com/GridexProtocol/gridex-facade/blob/main/contracts/AggregateMulticall.sol).
 Can assign specific gas limit for call and do a batch of static calls within one http request.
 
@@ -216,7 +219,8 @@ func TestMulticall3(t *testing.T) {
 
 **FAO**:
 function with self-defined struct arguments is not Supported.
-eg: 
+eg:
+
 ```solidity
 balanceOf(address)(uint256) ✓
 quoteExactInputSingle(QuoteParameters memory parameters) ❌

@@ -1,7 +1,7 @@
 package bigint
 
 import (
-	"github.com/gridexswap/utils/math"
+	"github.com/hawkneo/utils/math"
 	"math/big"
 )
 

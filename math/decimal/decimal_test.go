@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gridexswap/utils/math"
+	"github.com/hawkneo/utils/math"
 )
 
 func TestNewFromString(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gridexswap/utils/math"
+	"github.com/hawkneo/utils/math"
 	"github.com/stretchr/testify/assert"
 )
 

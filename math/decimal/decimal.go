@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gridexswap/utils/math"
-	"github.com/gridexswap/utils/math/bigint"
+	"github.com/hawkneo/utils/math"
+	"github.com/hawkneo/utils/math/bigint"
 )
 
 const (

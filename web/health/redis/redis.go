@@ -3,7 +3,7 @@ package redis
 import (
 	"context"
 
-	"github.com/gridexswap/utils/web/health"
+	"github.com/hawkneo/utils/web/health"
 	"github.com/redis/go-redis/v9"
 )
 

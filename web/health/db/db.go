@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/gridexswap/utils/web/health"
+	"github.com/hawkneo/utils/web/health"
 )
 
 const (
